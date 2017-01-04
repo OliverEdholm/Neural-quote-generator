@@ -1,5 +1,5 @@
 # Neural-quote-generator
-A lstm-char-rnn generator (neural network) generating quotes made in TFLearn.
+A lstm-char-rnn generator (neural network) made in TFLearn generating quotes.
 
 ### Examples
 Here are some examples of quotes generated after training in 12 hours on a GTX 1070 and picking the checkpoint with the lowest loss, 1.2.
