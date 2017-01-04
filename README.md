@@ -42,7 +42,7 @@ All checkpoints will be stored in a folder called checkpoints. **When training a
 
 To evaluate a checkpoint you can run.
 ```
-python3 evaluate_lstm <checkpoints/checkpointname>
+python3 evaluate_lstm.py <checkpoints/checkpointname>
 ```
 
 ### Credits
