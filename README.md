@@ -1,5 +1,5 @@
 # Neural-quote-generator
-A lstm-char-rnn generator generating quotes made in TFLearn.
+A lstm-char-rnn generator (neural network) generating quotes made in TFLearn.
 
 ### Examples
 Here are some examples of quotes generated after training in 12 hours on a GTX 1070 and picking the checkpoint with the lowest loss, 1.2.
@@ -26,19 +26,19 @@ the front and old law is an off.
 
 As you can see are the quotes not giving any wisdom but are rather very confusing and quite entertaining according to me.
 
-This neural network can probably do much better with some mixturing of parameters and changing the layout of the network but I got what I wanted from the network so I won't go any further.
+This neural network can probably do much better with some mixturing of parameters, changing the layout/architecture of the network and more training but I got what I wanted from the network so I won't go any further.
 
 ### Requirements
 * Python 3.*
 * TFlearn
 
 ### Usage
-Run this to train the lstm-char-rnn on quotes downloaded from https://github.com/alvations/Quotables.
+Run this command to train the lstm-char-rnn on quotes downloaded from https://github.com/alvations/Quotables.
 ```
 python3 quote_lstm.py
 ```
 
-All checkpoints will be stored in a folder called checkpoints. When training a new model, make sure to make a backup of the charidx.pkl and quotes.txt files and the checkpoints folder.
+All checkpoints will be stored in a folder called checkpoints. **When training a new model, make sure to make a backup of the charidx.pkl and quotes.txt files and the checkpoints folder.**
 
 To evaluate a checkpoint you can run.
 ```
